@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://i.pinimg.com/736x/d1/06/4b/d1064bb20da4a8550548737dc04658c1.jpg);
+}
+
+input{
+    height: 100px;
+    width: 700px;
+    position: absolute;
+    left: 27.1%;
+    top: 40%;
+    font-size: 500%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: none;
+    background-color: aqua;
+}
+
+input:hover{
+    color: aqua;
+    background-color: rgba(255, 228, 196, 0);
+    transition: 0.5s;
+}
